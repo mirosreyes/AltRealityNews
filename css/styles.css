@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(248, 248, 248);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.newsrow{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.header{
+    height: 25%;
+    background: linear-gradient(rgb(0, 65, 65), rgb(0, 31, 21));
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.sidebar{
+    margin-left: .5%;
+    margin-right: .5%;
+    width: 29%;
+    display: block
+    
+
+}
+.mainnews{
+    margin-left: .5%;
+    margin-right: .5%;
+    width: 69%;
+    padding: 10px 10px 10px 10px;
+}
+
+.content{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.news1{
+    width: 80%;
+    margin-left: 10px;
+    
+    
+}
+
+.navlink{
+    color: white;
+    font-size: 18px;
+}
+
+.articlebox{
+    display: block;
+}
+
+.article{
+    display: flex;
+}
+
+.articletitle{
+    margin-right: 100px;
+}
+
+.articlepic{
+    width: 100%;
+}
+
+.authorndate{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.articletext{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .content{
+        display: block;
+        margin: 0;
+    }
+    .mainnews{
+        width: 99%;
+    }
+    .sidebar{
+        width: 99%;
+        margin: 10px;
+    }
+    .article{
+        display: block;
+    }
+    .header{
+
+        justify-content: center;
+    }
+    .newsrow{
+        flex-flow: wrap;
+        justify-content: center;
+    }
+}
